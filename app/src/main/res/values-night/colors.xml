@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">@color/grey1</color>
+    <color name="separatorColor">@color/grey2</color>
+</resources>

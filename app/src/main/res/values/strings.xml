@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Medication List</string>
+    <string name="empty_list_text">You haven\'t added any medication.\nPress + button to add a new one</string>
+    <string name="add_new_medication">Add a new medication</string>
+    <string name="medication_name">Medication name</string>
+    <string name="medication_quantity">Medication quantity</string>
+    <string name="submit">Submit</string>
+    <string name="add_med_name_input_error">Medication name must have at least 5 chars!</string>
+    <string name="add_med_quantity_input_error">Quantity needs to be a integer bigger or equal to zero!</string>
+    <string name="delete_medication">Delete medication</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

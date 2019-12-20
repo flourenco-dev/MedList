@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?android:selectableItemBackground">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/medicationImage"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/medicationNameText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="4dp"
+        android:textColor="@color/textColor"
+        tools:text="Veraspir Diskus 50/250ug"/>
+
+    <View
+        android:id="@+id/medicationSeparator"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/separatorColor"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_marginStart="4dp"
+        android:id="@+id/medicationQuantityText"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_height="match_parent"
+        tools:text="12"/>
+
+</LinearLayout>
